@@ -1,6 +1,4 @@
-local binary = "10111"; -- Enter binary number here; 16 is the decimal in this case.
-
-
+local binary = "10111"; -- Enter binary number here; 23 is the decimal in this case.
 function convertToDecimal()
   local nums = {};
   local counter = 0;
@@ -15,9 +13,8 @@ function convertToDecimal()
     counter = counter + 1
     end;
   for i3 = 1,#nums do
-    decimal = nums[i3];
+    decimal = decimal + nums[i3];
   end;
   return decimal;
 end;
 print(convertToDecimal());
-    
