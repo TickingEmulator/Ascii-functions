@@ -1,7 +1,7 @@
 # Ascii-functions
 
 
-Binary-To-Decimal using the Lua programming language.
+Ascii-functions using the Lua programming language.
 
 I created this 1-2 years ago but never released the version. Their are two files that have useful purposes such as converting binary to decimal and converting decimal to character.
 
