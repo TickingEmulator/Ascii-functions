@@ -1,4 +1,4 @@
-# Binary-to-Decimal
+# Ascii-functions
 
 
 Binary-To-Decimal using the Lua programming language.
