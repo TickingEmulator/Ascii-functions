@@ -1,4 +1,4 @@
-local binary = "10111"; -- Enter binary number here; 16 is the decimal in thise case.
+local binary = "10111"; -- Enter binary number here; 16 is the decimal in this case.
 
 
 function convertToDecimal()
