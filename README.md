@@ -3,7 +3,7 @@
 
 Ascii-functions using the Lua programming language.
 
-I created this 1-2 years ago but never released the version. Their are two files that have useful purposes such as converting binary to decimal and converting decimal to character.
+I created this 2 years ago but never released the version. There are two files that convert binary to decimal and convert decimal to character.
 
 This image references the ascii table. 
 
