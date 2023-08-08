@@ -1,6 +1,6 @@
 local binarySequence = {};
 local base2Table = {512, 256, 128, 64, 32, 16, 8, 4, 2, 1}; -- This table only goes up to 1023 meaning that's the limit for your decimal integer.
-local decimal = "0d665"
+local decimal = "0d665";
 function decimalToBinary(decimal)
   local decimalParse = (decimal):gsub("0d","");
   local decimalInteger = tonumber(decimalParse);
