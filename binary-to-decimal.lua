@@ -1,20 +1,17 @@
-local binary = "10111"; -- Enter binary number here; 23 is the decimal in this case.
-function convertToDecimal()
-  local nums = {};
-  local counter = 0;
-  local decimal = 0;
-  for i = 1,#binary do
-    nums[i] = tonumber(string.char(string.byte(string.reverse(binary),i)));
-  end;
-  for i2 = 1,#nums do
-    if (nums[i2] == 1) then
-        nums[i2] = 2^counter;
-      end;
-    counter = counter + 1
-    end;
-  for i3 = 1,#nums do
-    decimal = decimal + nums[i3];
-  end;
-  return decimal;
-end;
-print(convertToDecimal());
+local binary = "10111";
+local count = 0;
+local sqr = 0;
+for i = #binary,1,-1 do
+  if ((binary):sub(i,i) == "1") then
+    count = count + 2^sqr;
+  end
+  sqr = sqr + 1;
+end
+print(count);
+
+[[ 
+There are different approaches to converting binary to decimal in lua. The approach I took above was a logical breakdown and was only done to better understand converion but if you're looking
+for convenience just use the following apporach:
+tonumber(arguments: (string,base))
+print(tonumber("10111", 2))
+]]
