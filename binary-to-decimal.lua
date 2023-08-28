@@ -1,4 +1,4 @@
-local binary = "10111"; // bit32.lshift will make this process shorter but this is a breakdown process.
+local binary = "10111"; -- bit32.lshift will make this process shorter but this is a breakdown process.
 local count = 0;
 local sqr = 0;
 for i = #binary,1,-1 do
