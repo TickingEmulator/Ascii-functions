@@ -4,7 +4,7 @@ local sqr = 0;
 for i = #binary,1,-1 do
   if ((binary):sub(i,i) == "1") then
     count = count + 2^sqr;
-  end
+  end;
   sqr = sqr + 1;
-end
+end;
 print(count);
